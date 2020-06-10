@@ -20,7 +20,7 @@ function fareTripler(){
   return a(3);
 }
 function selectDifferentDrivers(arrayOfDrivers, returnFirstTwoDrivers){
-  console.log(selectingDrivers[1](arrayOfDrivers))
-  return selectingDrivers[1](arrayOfDrivers)
+  const a = [selectingDrivers[0], selectingDrivers[1]]
+  return a(arrayOfDrivers)
 }
 selectDifferentDrivers(drivers);
