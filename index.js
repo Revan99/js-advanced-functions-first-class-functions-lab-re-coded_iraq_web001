@@ -11,3 +11,6 @@ function createFareMultiplier(num){
     return fare*num
   }
 }
+function fareDoubler(){
+  
+}
