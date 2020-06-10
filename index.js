@@ -5,4 +5,4 @@ function returnFirstTwoDrivers(drivers){
 function returnLastTwoDrivers(drivers){
   return drivers.slice(drivers.length-2,drivers.length);
 }
-console.log(returnFirstTwoDrivers(drivers))
+const selectingDriver = [returnFirstTwoDrivers, returnLastTwoDrivers]
