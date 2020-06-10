@@ -12,6 +12,6 @@ function createFareMultiplier(num){
   }
 }
 function fareDoubler(dub){
-  const a = createFareMultiplier()
+  const a = createFareMultiplier(10)
   return a(dub)
 }
