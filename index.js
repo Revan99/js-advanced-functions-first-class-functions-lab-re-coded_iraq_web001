@@ -6,3 +6,8 @@ function returnLastTwoDrivers(drivers){
   return drivers.slice(drivers.length-2,drivers.length);
 }
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
+function createFareMultiplier(num){
+  return function(fare){
+    return fare*num
+  }
+}
